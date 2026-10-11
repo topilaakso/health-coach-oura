@@ -14,8 +14,8 @@
     <h2>Intended data flow</h2>
     <p>After account authorization, the application is intended to retrieve records from the Oura API, save them as JSON files in a private <code>data/oura/</code> folder on my Mac, and produce local reports for reviewing sleep, recovery and training trends.</p>
     <p>The requested permissions are Personal, Daily, Heartrate, Tag, Workout, Session, SpO2, Stress and Heart Health. These cover profile context, daily sleep/readiness/activity summaries, heart-rate records, tags, workouts, sessions, overnight blood oxygen, stress and heart-health records. Email and Ring Configuration access are excluded.</p>
-    <p>The current connector has read tools for profile information, daily summaries, heart rate, workouts, sessions, tags and blood oxygen. Stress and Heart Health collection still requires additional connector support.</p>
-    <p>A weekly refresh on Sunday is planned. Account connection, scheduled downloads and report generation have not yet been enabled.</p>
+    <p>The local application retrieves records directly from the Oura API, including stress and heart-health records where available and authorized.</p>
+    <p>A weekly refresh on Sunday is planned. Scheduled downloads and report generation have not yet been enabled.</p>
     <p>This site contains application information only. It does not receive Oura credentials or health records. The integration is independent of Oura and is intended only for its owner's account.</p>
   </main>
   <footer>Maintained by Topi Laakso. Updated 11 October 2026.</footer>
