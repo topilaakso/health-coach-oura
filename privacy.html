@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Health Coach — privacy policy</title>
+  <style>body{max-width:720px;margin:48px auto;padding:0 24px;font:18px/1.6 system-ui,sans-serif;color:#242424}nav{display:flex;gap:24px;flex-wrap:wrap}a{color:#185b97}h1{line-height:1.2}footer{margin-top:48px;font-size:14px;color:#555}</style>
+</head>
+<body>
+  <nav aria-label="Pages"><a href="index.html">Overview</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a></nav>
+  <main>
+    <h1>Privacy policy</h1>
+    <p>Health Coach is operated by Topi Laakso solely for his own Oura account. This policy describes the intended collection workflow; account connection and automatic downloads have not yet been enabled.</p>
+    <h2>Collection and use</h2>
+    <p>Once authorized through Oura's consent screen, the application will read sleep, readiness, activity, heart-rate and workout records using only the daily, heartrate and workout permissions. Records are intended for personal review of sleep, recovery and training trends. It does not request permission to modify Oura records or collect other people's data.</p>
+    <h2>Local storage and protection</h2>
+    <p>The application runs on the owner's Mac. Downloaded JSON records are intended to be saved in a private <code>data/oura/</code> folder, with reports also kept locally. Separate disk and HTTP response caches are disabled in the current integration configuration. Credentials and access tokens are kept outside the project with user-only file permissions and are used to authenticate with Oura. File permissions alone do not encrypt files.</p>
+    <p>Local records and reports will be kept only for as long as needed for the stated personal review purpose and removed when no longer necessary. The owner is responsible for reviewing and deleting these files; automatic retention and deletion controls have not yet been implemented. Local backup or sync services, if enabled by the owner for these files, may create additional copies.</p>
+    <h2>Sharing</h2>
+    <p>The intended collection flow sends authentication and data requests to Oura and saves the returned records on the Mac. The owner also intends to select records or summaries for separately requested external analysis. Any such sharing must be allowed by the applicable data-provider agreements and be covered by the receiving service's privacy, security and retention settings before it occurs. Those services may retain supplied records, summaries or conversations. Deleting a local file does not remove copies held by a receiving service.</p>
+    <p>This integration does not sell health data, use it for advertising, or provide access to other users. Health records, reports, credentials and tokens are not published to this website or its public repository.</p>
+    <h2>Access, withdrawal and deletion</h2>
+    <p>The owner can inspect downloaded files and reports, revoke access in Oura's application settings, and stop the local application. If consent is withdrawn, collection and processing must stop immediately. On a deletion request, downloaded records and derived reports must be removed within 72 hours, along with any copies under the owner's control. Credentials and tokens must also be removed when disconnecting the integration.</p>
+    <p>Deletion is currently a manual responsibility of the owner, including checking any backups, synced folders and receiving services. Revoking an access token alone does not delete previously downloaded data. The application does not delete the original records held by Oura.</p>
+    <h2>This informational website</h2>
+    <p>The public pages contain no health records, credentials, analytics scripts or forms. GitHub Pages hosts this site and may process ordinary visitor metadata, including IP addresses, under <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub's privacy statement</a>. This policy should be updated before the collection purpose, permissions, recipients or retention arrangements change.</p>
+  </main>
+  <footer>Maintained by Topi Laakso. Updated 11 October 2026.</footer>
+</body>
+</html>
